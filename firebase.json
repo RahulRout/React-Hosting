@@ -3,7 +3,7 @@
     "rules": "{ “rules”: { “.read”: true, “.write”: true }}"
   },
   "hosting": {
-    "public": "y",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
