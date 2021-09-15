@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/RahulRout/React-Hosting.git/static/css/main.7a242960.chunk.css",
-    "main.js": "/RahulRout/React-Hosting.git/static/js/main.11dd8d45.chunk.js",
-    "main.js.map": "/RahulRout/React-Hosting.git/static/js/main.11dd8d45.chunk.js.map",
-    "runtime-main.js": "/RahulRout/React-Hosting.git/static/js/runtime-main.2f3f4f16.js",
-    "runtime-main.js.map": "/RahulRout/React-Hosting.git/static/js/runtime-main.2f3f4f16.js.map",
-    "static/js/2.40d7ebe1.chunk.js": "/RahulRout/React-Hosting.git/static/js/2.40d7ebe1.chunk.js",
-    "static/js/2.40d7ebe1.chunk.js.map": "/RahulRout/React-Hosting.git/static/js/2.40d7ebe1.chunk.js.map",
-    "static/js/3.88c0c2de.chunk.js": "/RahulRout/React-Hosting.git/static/js/3.88c0c2de.chunk.js",
-    "static/js/3.88c0c2de.chunk.js.map": "/RahulRout/React-Hosting.git/static/js/3.88c0c2de.chunk.js.map",
-    "index.html": "/RahulRout/React-Hosting.git/index.html",
-    "static/css/main.7a242960.chunk.css.map": "/RahulRout/React-Hosting.git/static/css/main.7a242960.chunk.css.map",
-    "static/js/2.40d7ebe1.chunk.js.LICENSE.txt": "/RahulRout/React-Hosting.git/static/js/2.40d7ebe1.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/RahulRout/React-Hosting.git/static/media/logo.6ce24c58.svg"
+    "main.css": "/React-Hosting/static/css/main.7a242960.chunk.css",
+    "main.js": "/React-Hosting/static/js/main.11dd8d45.chunk.js",
+    "main.js.map": "/React-Hosting/static/js/main.11dd8d45.chunk.js.map",
+    "runtime-main.js": "/React-Hosting/static/js/runtime-main.87b4c103.js",
+    "runtime-main.js.map": "/React-Hosting/static/js/runtime-main.87b4c103.js.map",
+    "static/js/2.40d7ebe1.chunk.js": "/React-Hosting/static/js/2.40d7ebe1.chunk.js",
+    "static/js/2.40d7ebe1.chunk.js.map": "/React-Hosting/static/js/2.40d7ebe1.chunk.js.map",
+    "static/js/3.88c0c2de.chunk.js": "/React-Hosting/static/js/3.88c0c2de.chunk.js",
+    "static/js/3.88c0c2de.chunk.js.map": "/React-Hosting/static/js/3.88c0c2de.chunk.js.map",
+    "index.html": "/React-Hosting/index.html",
+    "static/css/main.7a242960.chunk.css.map": "/React-Hosting/static/css/main.7a242960.chunk.css.map",
+    "static/js/2.40d7ebe1.chunk.js.LICENSE.txt": "/React-Hosting/static/js/2.40d7ebe1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/React-Hosting/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f3f4f16.js",
+    "static/js/runtime-main.87b4c103.js",
     "static/js/2.40d7ebe1.chunk.js",
     "static/css/main.7a242960.chunk.css",
     "static/js/main.11dd8d45.chunk.js"
