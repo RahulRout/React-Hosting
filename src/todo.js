@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom';
 import './todo.css'
 import Sidebar from "react-sidebar";
 import GoogleMapReact from 'google-map-react';
-
+import DataGrid from 'react-data-grid';
+import DataTable from './components/DataTable'
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const containerStyle = {
@@ -20,6 +21,7 @@ const defaultProps = {
   },
   zoom: 11
 };
+
 class Todo extends React.Component {
   constructor(props) {
     super(props);
@@ -33,7 +35,7 @@ class Todo extends React.Component {
       this.setState({ headColor: 'white', showNav: false })
     }
   }
- 
+
   componentDidMount() {
     window.addEventListener('scroll', this.listenScrollEvent)
   }
@@ -47,10 +49,16 @@ class Todo extends React.Component {
       <div className='Container'>
         <div className='Header' >
           {this.state.showNav ? <div className='linkTable'>
-            <a href="#" className='linkText'>Link 1</a>
-            <a href="#" className='linkText'>Link 2</a>
-            <a href="#" className='linkText'>Link 3</a>
-          </div> : null}
+            <a href="/Login" className='linkText'>Home</a>
+            <a href="#" className='linkText'>Programs</a>
+            <a href="#" className='linkText'>About</a>
+            <a href="#" className='linkText'>Contact Us</a>
+          </div> : <div className='linkTable2'>
+            <a href="/Login" className='linkText'>Home</a>
+            <a href="#" className='linkText'>Programs</a>
+            <a href="#" className='linkText'>About</a>
+            <a href="#" className='linkText'>Contact Us</a>
+          </div>}
         </div>
         <div className='outer'>
           <div className='card'>
@@ -65,11 +73,6 @@ class Todo extends React.Component {
           </div>
         </div>
         <div className='middle'>
-          {/* <div className='medView'>
-            <div className='innerView'>
-
-            </div>
-          </div> */}
           <div className='textCard'>
             <text style={{ color: '#65CCBB', fontSize: '15px', textAlign: 'left', fontWeight: 'bold', marginTop: '20px' }}>Upcoming Program</text>
             <h2>Donate vitamin B12 supply program</h2>
@@ -92,6 +95,8 @@ class Todo extends React.Component {
               text="My Marker"
             />
           </GoogleMapReact>
+        </div>
+        <div className='footer'>
         </div>
       </div>
     );

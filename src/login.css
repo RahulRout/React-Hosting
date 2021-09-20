@@ -1,0 +1,36 @@
+.Container {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.Header {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(92, 106, 129);
+    padding-top: 0px;
+    position: relative;
+    /* position: fixed;
+    top: 0;
+    left: 0; */ 
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    height: 40vh;
+    width: 70vh;
+    margin: 10vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+    transition: 0.3s;
+    border-radius:10px ;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+  
+  /* Add some padding inside the card container */
+.cardcontainer {
+    padding: 2px 16px;
+  }
